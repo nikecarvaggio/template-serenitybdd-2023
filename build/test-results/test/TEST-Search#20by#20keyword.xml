@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search by keyword" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-15T21:44:11" hostname="MacBook-Pro-CHM3705.local" time="12.91">
+  <properties/>
+  <testcase name="Searching for a term" classname="Search by keyword" time="12.91"/>
+  <system-out><![CDATA[
+@stories
+Scenario: Searching for a term                       ?[90m# src/test/resources/features/search/search_by_keyword.feature:7?[0m
+  ?[32mGiven ?[0m?[32m?[0m?[32m?[1mSergey?[0m?[32m is researching things on the internet?[0m ?[90m# starter.stepdefinitions.SearchStepDefinitions.researchingThings(net.serenitybdd.screenplay.Actor)?[0m
+  ?[32mWhen ?[0m?[32m?[0m?[32m?[1mhe?[0m?[32m looks up ?[0m?[32m?[1m"Cucumber"?[0m                        ?[90m# starter.stepdefinitions.SearchStepDefinitions.searchesFor(net.serenitybdd.screenplay.Actor,java.lang.String)?[0m
+  ?[32mThen ?[0m?[32m?[0m?[32m?[1mhe?[0m?[32m should see information about2 ?[0m?[32m?[1m"Cucumber"?[0m   ?[90m# starter.stepdefinitions.SearchStepDefinitions.should_see_information_second_about(net.serenitybdd.screenplay.Actor,java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 18140
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 15, 2023 4:44:18 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 113, so returning the closest version found: 110
+]]></system-err>
+</testsuite>
