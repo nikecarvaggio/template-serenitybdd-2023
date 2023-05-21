@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search available pet" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-21T02:26:53" hostname="MacBook-Pro-CHM3705.local" time="2.477">
+  <properties/>
+  <testcase name="Searching for kitty" classname="Search available pet" time="2.477"/>
+  <system-out><![CDATA[
+@stories
+Scenario: Searching for kitty                                ?[90m# src/test/resources/features/api/petstore/petstore.feature:7?[0m
+  ?[32mGiven ?[0m?[32mKitty is available in the pet store?[0m                  ?[90m# starter.stepdefinitions.api.PetStoreStepDefinitions.givenKittyIsAvailableInPetStore()?[0m
+  ?[32mWhen ?[0m?[32mI ask for a pet using Kitty's ID: ?[0m?[32m?[1m9222968140497181183?[0m ?[90m# starter.stepdefinitions.api.PetStoreStepDefinitions.whenIAskForAPetWithId(java.lang.Long)?[0m
+  ?[32mThen ?[0m?[32mI get Kitty as result?[0m                                 ?[90m# starter.stepdefinitions.api.PetStoreStepDefinitions.thenISeeKittyAsResult()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

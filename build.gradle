@@ -31,7 +31,8 @@ dependencies {
                 "net.serenity-bdd:serenity-cucumber:${serenityCoreVersion}",
                 "org.junit.jupiter:junit-jupiter-api:${junitVersion}",
                 "org.assertj:assertj-core:${assertJVersion}",
-                "ch.qos.logback:logback-classic:${logbackVersion}"
+                "ch.qos.logback:logback-classic:${logbackVersion}",
+            "net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
 
     implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
@@ -46,11 +47,9 @@ dependencies {
         "net.serenity-bdd:serenity-gradle-plugin:2.1.4",
         "net.serenity-bdd:serenity-single-page-report:2.1.4"
 
+
 }
 
-serenity {
-    reports = ["single-page-html"]
-}
 
 test {
     useJUnit{
